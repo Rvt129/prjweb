@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Okane Kanri - Expense Management Solution</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="icon" type="image/png" href="img/logo1.png">
+   <style>
+       body {
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           background-color: #f8f9fa;
+           margin: 0;
+           padding: 0;
+       }
+       .navbar {
+           background-color: #0076BE;
+           padding: 1rem;
+           border-bottom: 2px solid #005b8e;
+       }
+       .navbar-brand {
+           color: #fff;
+           font-weight: bold;
+           font-size: 1.5rem;
+       }
+       .nav-link {
+           color: #fff;
+           margin-left: 1rem;
+       }
+       .section {
+           padding: 4rem 0;
+           text-align: center;
+       }
+       .section h2 {
+           font-size: 2.5rem;
+           color: #0076BE;
+           margin-bottom: 2rem;
+       }
+       .section p {
+           font-size: 1.2rem;
+           color: #666;
+           margin-bottom: 2rem;
+       }
+       .btn-primary {
+           background-color: #0076BE;
+           border-color: #0076BE;
+           padding: 1rem 2.5rem;
+           font-size: 1.2rem;
+           border-radius: 2rem;
+           transition: background-color 0.3s ease;
+       }
+       .btn-primary:hover {
+           background-color: #005b8e;
+           border-color: #005b8e;
+       }
+       .feature-box {
+           padding: 2rem;
+           background-color: #fff;
+           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+           border-radius: 1rem;
+           transition: all 0.3s ease;
+       }
+       .feature-box:hover {
+           transform: translateY(-0.5rem);
+           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+       }
+       .feature-box img {
+           width: 100%;
+           max-width: 200px;
+           margin-bottom: 1.5rem;
+       }
+       .feature-box h3 {
+           font-size: 1.8rem;
+           color: #0076BE;
+           margin-bottom: 1.5rem;
+       }
+       .feature-box p {
+           font-size: 1.2rem;
+           color: #666;
+           margin-bottom: 1.5rem;
+       }
+       .footer {
+           background-color: #0076BE;
+           color: #fff;
+           padding: 3rem 0;
+           text-align: center;
+       }
+       .footer p {
+           margin: 0;
+           font-size: 1.2rem;
+       }
+   </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg">
+       <div class="container">
+           <a class="navbar-brand" href="index.html">
+               <img src="img/logo.png" href="index.html" alt="Logo" width="30" height="30" class="d-inline-block align-top mr-2">
+               Okane Kanri
+           </a>
+           <div class="collapse navbar-collapse">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                       <a class="nav-link" href="login.jsp">Login</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="signup.jsp">Sign Up</a>
+                   </li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+
+   <section class="section">
+       <div class="container">
+           <div class="row align-items-center">
+               <div class="col-md-6">
+                   <img src="img/banner1.png" alt="Sample Image" class="img-fluid rounded">
+               </div>
+               <div class="col-md-6 text-md-left">
+                   <h2>Organize Your Expenses</h2>
+                   <p class="lead">Okane Kanri is a powerful expense management solution that helps you track, categorize, and analyze your spending effortlessly. Take control of your finances today!</p>
+                   <a href="signup.jsp" class="btn btn-primary">Sign Up Now</a>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section class="section bg-light">
+       <div class="container">
+           <h2>Main Features</h2>
+           <div class="row">
+               <div class="col-md-4 mb-4">
+                   <div class="feature-box">
+                       <img src="img/view_image.png" alt="View Image" class="img-fluid rounded">
+                       <h3>View</h3>
+                       <p>Get a clear overview of your expenses with divided accounts, intuitive visualizations and detailed reports.</p>
+                   </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                   <div class="feature-box">
+                       <img src="img/track_image.png" alt="Track Image" class="img-fluid rounded">
+                       <h3>Track</h3>
+                       <p>Easily track your expenses by category, date, and account source with our user-friendly interface.</p>
+                   </div>
+               </div>
+               <div class="col-md-4 mb-4">
+                   <div class="feature-box">
+                       <img src="img/report_image.png" alt="Report Image" class="img-fluid rounded">
+                       <h3>Report</h3>
+                       <p>Detailed reports and graphs to analyze your spending habits and make informed financial decisions.</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <footer class="footer">
+       <div class="container">
+           <p>&copy; 2024 Okane Kanri. All rights reserved.</p>
+       </div>
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
